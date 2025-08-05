@@ -1,5 +1,9 @@
 print("Welcome to the character counter program!\nThis program will count the number of characters in your name.")
+
 name = input("Please enter your name: \n")
+
 count = len(name)
+
 print(f"The number of characters in your name is: {count}\n")
+
 print("Thank you for using the character counter program!")
